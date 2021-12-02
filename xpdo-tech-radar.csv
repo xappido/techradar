@@ -10,13 +10,13 @@ Rider,adopt,Tools,TRUE,"Many teams use Rider instead of Visual Studio for their 
 VS Code,adopt,Tools,TRUE,"A free lightweight IDE. Our text editor of choice."
 Azure DevOps,adopt,Tools,TRUE,"We expect Microsoft will prioritize GitHub Actions over Azure DevOps for future development, so Azure DevOps is not recommended for new projects."
 Application Insights,adopt,Tools,TRUE,"All applications should use Application Insights as the default developer telemetry platform (incl. feature usage and error reporting)."
-SendGrid,hold,Tools,TRUE,
+SendGrid,hold,Tools,TRUE,""
 Flyway,adopt,Tools,TRUE,"Our default tool for migrating database schemas."
 WSL 2,trial,Tools,TRUE,"Windows Subsystem for Linux should be installed on every development machine"
 SignalR,adopt,Tools,TRUE,"<a href='https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-5.0'>SignalR</a> is our default choice for push-functionality."
 Docker,adopt,Tools,TRUE,"Docker should be used as the default containerisation technology. Used for building, testing and deployment"
 SQL Server as backing store,adopt,Platforms,TRUE,"When a product needs to store more complex data than it can fit in a flat file, we ask the customer for a SQL DB."
-Windows Azure,adopt,Platforms,TRUE,
+Windows Azure,adopt,Platforms,TRUE,""
 CLIs,adopt,Techniques,TRUE,"Product should, where possible, expose funtionality via a CLI."
 RESTful APIs,adopt,Techniques,TRUE,"A REST architetural style is our default choice for building web APIs. Deviations can be made when it makes sense to do so."
 Containerised products,assess,Techniques,TRUE,"Where possible, all new products should be built to be containerised. We should ship the Mac/Linux versions of our products inside Docker containers."
@@ -28,10 +28,10 @@ Database Agnosticism,adopt,Techniques,TRUE,"We aim for feature parity between pr
 Continuous delivery,adopt,Techniques,TRUE,"Products should be ready for release at any time."
 Continuous Deployment,assess,Techniques,TRUE,"We'd like to evaluate technology that increases our deployment frequency, with a view to getting value into the hands of our users as quickly as possible."
 Build inside Docker containers,trial,Techniques,TRUE,"We should reduce build dependencies by building and testing our products inside containers."
-Cypress,trial,Techniques,TRUE,
-Specflow,trial,Techniques,TRUE,
-xanarin Forms,hold,Languages and Frameworks,TRUE,
-MAUI,trial,Languages and Frameworks,TRUE,
+Cypress,trial,Techniques,TRUE,""
+Specflow,trial,Techniques,TRUE,""
+xanarin Forms,hold,Languages and Frameworks,TRUE,""
+MAUI,trial,Languages and Frameworks,TRUE,""
 Stripe,assess,Tools,TRUE,"Payment System, to execute online payments"
 Payrexx,assess,Tools,TRUE,"Payment System, to execute online payments (supports TWINT)"
 FastReport,assess,Tools,TRUE,"Tool to create PDF files from a json or DB-Data"
