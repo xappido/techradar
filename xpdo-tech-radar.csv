@@ -35,3 +35,5 @@ MAUI,trial,Languages and Frameworks,TRUE,""
 Stripe,assess,Tools,TRUE,"Payment System, to execute online payments"
 Payrexx,assess,Tools,TRUE,"Payment System, to execute online payments (supports TWINT)"
 FastReport,assess,Tools,TRUE,"Tool to create PDF files from a json or DB-Data"
+Bryntum,trial,Tools,TRUE,Scheduler and calender componets for Agular
+AG Grid,assess,Tools ,TRUE,They say 'The Best JavaScript Grid in the World'
